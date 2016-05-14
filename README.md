@@ -16,7 +16,7 @@ Angular2 How does services work.
 </ul>
 
 # Learned so far
-<p>Angular2 Dependency Injection is awesome! Certainly with building services.<br>
+<p>Angular2 Dependency Injection is awesome! Certainly when building services to reuse code.<br>
 The use of services in Angular2, is a great way to centralize some logic of your app.
 </p>
 
