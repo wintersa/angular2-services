@@ -6,7 +6,7 @@ Angular2 How does services work.
     <li>boilerplate 2.0</li>
     <li>gulp integrated</li>
     <li>browser-sync integrated</li>
-    <li>Syntactically Awesome Stylesheets aka</li
+    <li>Syntactically Awesome Stylesheets aka</li>
         <ul>
             <li>CSS with Super Powers</li>
             <li>Feature to use block formatting</li>
