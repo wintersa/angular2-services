@@ -6,6 +6,7 @@ client/**/*.js
 client/**/*.map
 node_modules/
 npm-debug.log
+src/css
 *.bck
 *.js
 *.map
