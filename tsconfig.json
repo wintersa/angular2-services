@@ -28,6 +28,7 @@
     "./dev/component1.component.ts",
     "./dev/component2.component.ts",
     "./dev/services/calculator.service.ts",
+    "./dev/services/data.services.ts",
     "./dev/services/logging-service.ts"
   ]
 }

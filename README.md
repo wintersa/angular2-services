@@ -31,4 +31,10 @@ The use of services in Angular2, is a great way to centralize some logic of your
     <li>Injecting a service</li>
     <li>Created a calculator service</li>
     <li>Created a data service</li>
+    <ul>
+        <li>Make use of a single instance of a service. Data will be shared between components.
+            And it is necessary to make your service available at the top level. Thus, in the boot.ts file.
+        </li>
+        <li>Make use of multiple instances of services. Each component has its own data. No data sharing</li>
+    </ul>
 </ul>
