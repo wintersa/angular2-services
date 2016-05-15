@@ -1,9 +1,9 @@
-# angular2-services
-Angular2 How does services work.
+# Angular2 Services Example with DI
+Learning Angular2 Services
 
-# About the skeleton / boilerplate
+# About the boilerplate
 <ul>
-    <li>boilerplate 2.0</li>
+    <li>boilerplate fixes</li>
     <li>gulp integrated</li>
     <li>browser-sync integrated</li>
     <li>Syntactically Awesome Stylesheets aka</li>
