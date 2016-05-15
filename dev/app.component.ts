@@ -5,12 +5,12 @@ import {Component2Component} from './component2.component';
 @Component({
     selector: 'app',
     template: `
-              <h2>Services Example</h2>
-              <br><br>
-              <h1>First Component</h1>
+              <h1><b>Angular2 Services Example with DI</b></h1>
+              <br>
+              <h3><u>First Component</u></h3>
               <component-1></component-1>
               <br>
-              <h1>Second Component</h1>
+              <h3><u>Second Component</u></h3>
               <component-2></component-2>
     `,
     directives: [Component1Component, Component2Component]

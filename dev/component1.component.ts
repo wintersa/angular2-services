@@ -6,26 +6,25 @@ import {DataService} from './services/data.services';
 @Component ({
   selector: 'component-1',
   template: `
-        <div>
-            <h3>Logging Service</h3>
+        <div class="container">
+            <h4>Logging Service</h4>
             <input type="text" #message>
             <button (click)="onLog(message.value)">Send</button>
         </div>
-        <div>
-            <h3>Calculator Service</h3>
+        <div class="container">
+            <h4>Calculator Service</h4>
             <p>Add or multiply these two numbers:</p>
             <input type="text" #num1>
             <input type="text" #num2>
             <button (click)="onMultiply(num1.value, num2.value)">Multiply</button>
             <button (click)="onAdd(num1.value, num2.value)">Add</button>
             <br>
-            <p><b>Result: {{result}}</b></p>
+            <p>Result: <b>{{result}}</b></p>
         </div>
-        <div>
-            <h1>Data Service</h1>
+        <div class="container">
+            <h4>Data Service</h4>
             <button (click)="onGetData()">Get some data</button>
-            <p>Data: {{data}}</p>
-            <br>
+            <p>Data: <b>{{data}}</b></p>
             <input type="text" #newData>
             <button (click)="onInsert(newData.value)">Insert new data</button>
         </div>
